@@ -8,6 +8,11 @@
 package com.ipartek.formacion.ws.pojo;
 
 public class Empleado implements java.io.Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	private java.lang.String apellido;
 
 	private java.lang.String email;
@@ -126,7 +131,7 @@ public class Empleado implements java.io.Serializable {
 	public synchronized boolean equals(java.lang.Object obj) {
 		if (!(obj instanceof Empleado))
 			return false;
-		Empleado other = (Empleado) obj;
+		final Empleado other = (Empleado) obj;
 		if (obj == null)
 			return false;
 		if (this == obj)
