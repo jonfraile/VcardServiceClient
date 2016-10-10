@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/com/ipartek/formacion/ws/pojo/Empleado.java=UTF-8
+encoding//src/com/ipartek/formacion/ws/service/VcardService.java=UTF-8
+encoding//src/com/ipartek/formacion/ws/service/VcardServiceService.java=UTF-8
+encoding//src/com/ipartek/formacion/ws/service/VcardServiceServiceLocator.java=UTF-8
+encoding//src/com/ipartek/formacion/ws/service/VcardServiceSoapBindingStub.java=UTF-8
